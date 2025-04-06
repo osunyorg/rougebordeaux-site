@@ -1,6 +1,7 @@
 header#document-header
   position: absolute
-  nav.primary-menu 
-    > .container
-      flex-direction: column
-      gap: $spacing-2
+  @include media-breakpoint-up(desktop)
+    nav.primary-menu 
+      > .container
+        flex-direction: column
+        gap: $spacing-2
