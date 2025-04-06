@@ -4,7 +4,7 @@ params:
   summary:
     position: hero
   search:
-    active: true
+    active: false
   logo:
-    header: ''
-    footer: ''
+    header: /assets/images/logo-white.png
+    footer: /assets/images/logo-white.png
