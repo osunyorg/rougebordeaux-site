@@ -8,8 +8,8 @@ items:
   children: []
   path: "/exhibitions"
   file: content/fr/exhibitions/_index.html
-- title: Projets
-  target: "/projets/"
+- title: Groupes
+  target: "/groupes/"
   kind: page
   new_tab: false
   children: []
