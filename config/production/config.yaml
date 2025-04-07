@@ -23,4 +23,4 @@ deployment:
   ## DEUXFLEURS
   targets:
     - name: "production"
-      URL: "s3://site.rougebordeaux.osuny.site?endpoint=garage.deuxfleurs.fr&s3ForcePathStyle=true&region=garage&awssdk=v1"
+      URL: "s3://www.rouge-bordeaux.fr?endpoint=garage.deuxfleurs.fr&s3ForcePathStyle=true&region=garage&awssdk=v1"
