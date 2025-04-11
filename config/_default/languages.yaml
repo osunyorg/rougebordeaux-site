@@ -15,10 +15,10 @@ fr:
     exhibitions: /expositions/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
     pages_categories: /:slug/
-    projects: /groupes/:year-:slug/
-    projects_categories: /groupes/:slug/
-    posts: /actualites/:year-:month-:day-:slug/
-    posts_categories: /actualites/:slug/
+    organizations: /organisations/:slug/
+    organizations_categories: /organisations/categories/:slug/
+    persons: /equipe/:slug/
+    persons_categories: /equipe/categories/:slug/
   taxonomies:
     administrator: administrators
     author: authors
