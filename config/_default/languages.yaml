@@ -9,6 +9,12 @@ fr:
   buildFuture: true
   params:
     contact_details:
+      social_networks:
+        instagram:
+          label: >-
+            rouge.bordeaux.production
+          value: >-
+            https://instagram.com/rouge.bordeaux.production
 
   permalinks:
     events: /agenda/:year/:slug/
