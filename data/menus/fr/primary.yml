@@ -8,6 +8,13 @@ items:
   children: []
   path: "/events"
   file: content/fr/events/_index.html
+- title: Groupes
+  target: "/groupes-1/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/organizations"
+  file: content/fr/organizations/_index.html
 - title: À propos
   target: "/a-propos/"
   kind: page
