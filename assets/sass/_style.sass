@@ -5,3 +5,24 @@ header#document-header
       > .container
         flex-direction: column
         gap: $spacing-2
+
+.block
+    &-agenda
+        &--grid
+            @include media-breakpoint-up(desktop)
+                .event
+                    border-right: 1px solid $color-border
+
+footer#document-footer
+    .footer-site
+        display: none
+    @include media-breakpoint-up(desktop)
+        .container:first-of-type
+            justify-content: center
+        .footer-legals
+            .footer-credit,
+            .nav-legal li,
+            .nav-legal
+                display: inline-block
+            .nav-legal li
+                margin-right: $spacing-3
