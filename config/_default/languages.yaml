@@ -16,15 +16,6 @@ fr:
           value: >-
             https://instagram.com/rouge.bordeaux.production
 
-  permalinks:
-    events: /agenda/:year/:slug/
-    exhibitions: /expositions/:year-:month-:day-:slug/
-    events_categories: /agenda/:slug/
-    pages_categories: /:slug/
-    organizations: /groupes-1/:slug/
-    organizations_categories: /groupes-1/categories/:slug/
-    persons: /personnes/:slug/
-    persons_categories: /personnes/categories/:slug/
   taxonomies:
     administrator: administrators
     author: authors
