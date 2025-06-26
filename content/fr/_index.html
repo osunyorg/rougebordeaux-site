@@ -21,6 +21,7 @@ meta:
     published_at: 2025-04-06T12:33:54+02:00
 search:
   id: "e53e972b-3cc9-43a5-8093-8d9ff34a0cf3"
+  about_id: "26586f9d-86ea-474e-95bc-5fdcfc96b2b2"
   url: "/"
   kind: "Communication::Website::Page::Localization"
   lang: "fr"
@@ -40,6 +41,8 @@ design:
   toc:
     present: false
     offcanvas: true
+
+
 
 position: 1
 weight: 1
@@ -92,6 +95,10 @@ contents:
         heading: 2
     data:
       mode: selection
+      kinds:
+        parent: false
+        child: true
+        recurring: true
       options:
         categories: false
         dates: true
@@ -113,12 +120,10 @@ contents:
           path: "/events/2025/04/09-20-00-market-tavern-open-mic"
           slug: "market-tavern-open-mic"
           file: "content/fr/events/2025/04/09-20-00-market-tavern-open-mic.html"
-        - permalink: "/agenda/2025/market-tavern-open-mic-1/"
-          path: "/events/2025/04/15-20-00-market-tavern-open-mic-1"
-          slug: "market-tavern-open-mic-1"
-          file: "content/fr/events/2025/04/15-20-00-market-tavern-open-mic-1.html"
+          name: >-
+            Market Tavern Open Mic
 
-
+      quantity: 1
 
   - kind: block
     template: agenda
@@ -139,6 +144,10 @@ contents:
         link: "/agenda/"
     data:
       mode: all
+      kinds:
+        parent: false
+        child: true
+        recurring: true
       options:
         categories: false
         dates: true
@@ -160,12 +169,16 @@ contents:
           path: "/events/2025/04/09-20-00-market-tavern-open-mic"
           slug: "market-tavern-open-mic"
           file: "content/fr/events/2025/04/09-20-00-market-tavern-open-mic.html"
+          name: >-
+            Market Tavern Open Mic
         - permalink: "/agenda/2025/market-tavern-open-mic-1/"
           path: "/events/2025/04/15-20-00-market-tavern-open-mic-1"
           slug: "market-tavern-open-mic-1"
           file: "content/fr/events/2025/04/15-20-00-market-tavern-open-mic-1.html"
+          name: >-
+            Red Lion Open Mic
 
-
+      quantity: 2
 
   - kind: block
     template: persons
@@ -197,6 +210,7 @@ contents:
           role: >-
             
 
+      quantity: 1
 
 
   - kind: block
