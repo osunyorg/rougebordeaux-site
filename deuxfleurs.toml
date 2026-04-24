@@ -15,38 +15,38 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
-from = "/equipe/alexis-benoit/"
+from = "/equipe/alexis-benoit/index.html"
 to = "/personnes/alexis-benoit/"
 
 [[redirects]]
-from = "/equipe/"
+from = "/equipe/index.html"
 to = "/personnes/"
 
 [[redirects]]
-from = "/organisations/lazy-kips/"
+from = "/organisations/lazy-kips/index.html"
 to = "/groupes-1/lazy-kips/"
 
 [[redirects]]
-from = "/equipe/equipe-editoriale/"
+from = "/equipe/equipe-editoriale/index.html"
 to = "/personnes/equipe-editoriale/"
 
 [[redirects]]
-from = "/organisations/"
+from = "/organisations/index.html"
 to = "/groupes-1/"
 
 [[redirects]]
-from = "/2024-lazy-kips/"
+from = "/2024-lazy-kips/index.html"
 to = "/groupes/2024-lazy-kips/"
 
 [[redirects]]
-from = "/agenda/2025/festival-de-lete/2025-04-21-concert-bidul/"
+from = "/agenda/2025/festival-de-lete/2025-04-21-concert-bidul/index.html"
 to = "/agenda/2025/festival-de-lete/concert-bidul/"
 
 [[redirects]]
-from = "/equipe/remi-cornardeau/"
+from = "/equipe/remi-cornardeau/index.html"
 to = "/personnes/remi-cornardeau/"
 
 [[redirects]]
-from = "/projets/"
+from = "/projets/index.html"
 to = "/groupes/"
 
